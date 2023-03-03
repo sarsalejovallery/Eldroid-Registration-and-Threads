@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Information">
+        <menu>
+            <item
+                android:id="@+id/username"
+
+                android:title="Username"
+                />
+            <item
+                android:id="@+id/emailadd"
+
+                android:title="E-mail"
+                />
+            <item
+                android:id="@+id/passwordid"
+
+                android:title="Password"
+                />
+            <item
+                android:id="@+id/location"
+
+                android:title="Location"
+                />
+        </menu>
+    </item>
+
+    <item
+        android:title="Action">
+        <menu>
+            <item
+                android:id="@+id/app_bar_switch"
+                android:title="Location"
+                app:actionLayout="@layout/switch_item"
+                app:showAsAction="always" />
+        </menu>
+    </item>
+
+    <item
+        android:title="Account">
+        <menu>
+            <item
+                android:id="@+id/verfication"
+                android:title="This account is not verified."
+                />
+            <item
+
+                android:title="Verify Now"
+                />
+            <item
+                android:id="@+id/Logout"
+
+                android:title="Log Out"
+                />
+        </menu>
+    </item>
+
+</menu>

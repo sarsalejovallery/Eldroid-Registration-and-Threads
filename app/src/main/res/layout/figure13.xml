@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/itinerant1"
+        android:layout_width="388dp"
+        android:layout_height="188dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="@color/gray"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/jokshanImageView"
+            android:layout_width="83dp"
+            android:layout_height="83dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/rainbowpeng"
+            app:civ_border_color="#FF000000" />
+
+        <TextView
+            android:id="@+id/itinerantName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="95dp"
+            android:layout_marginTop="10dp"
+            android:text="Vallery Sarsalejo"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/itinerantLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="95dp"
+            android:layout_marginTop="40dp"
+            android:text="Location: Labangon,Cebu City"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/itinerantVehicle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="95dp"
+            android:layout_marginTop="70dp"
+            android:text="Vehicle:"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/vehicleType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="175dp"
+            android:layout_marginTop="70dp"
+            android:text="None"
+            android:textColor="@color/red"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="41dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="95dp"
+            android:isIndicator="false"
+            android:numStars="5"
+            android:progressTint="@color/yellow"
+            android:rating="3"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            android:stepSize="1" />
+
+        <ImageButton
+            android:id="@+id/messageImageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="140dp"
+            android:backgroundTint="@color/gray"
+            app:srcCompat="@drawable/messages" />
+
+        <ImageButton
+            android:id="@+id/callImageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="125dp"
+            android:layout_marginTop="140dp"
+            android:backgroundTint="@color/gray"
+            app:srcCompat="@drawable/call1" />
+
+        <Button
+            android:id="@+id/hireNowButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="195dp"
+            android:layout_marginTop="140dp"
+            android:backgroundTint="@color/bright_pink"
+            android:text="Hire Now" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/itinerant3"
+        android:layout_width="388dp"
+        android:layout_height="187dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="464dp"
+        android:backgroundTint="@color/gray"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/aprilImageView"
+            android:layout_width="88dp"
+            android:layout_height="83dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/april"
+            app:civ_border_color="#FF000000" />
+
+        <TextView
+            android:id="@+id/itinerantName3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="95dp"
+            android:layout_marginTop="10dp"
+            android:text="April Joy Drilon"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/itinerantLocation3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="95dp"
+            android:layout_marginTop="40dp"
+            android:text="Location: Consolacion,Cebu City"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/itinerantVehicle3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="95dp"
+            android:layout_marginTop="70dp"
+            android:text="Vehicle:"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/vehicleType3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="175dp"
+            android:layout_marginTop="70dp"
+            android:text="Motorcycle"
+            android:textColor="@color/purple_700"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <RatingBar
+            android:id="@+id/ratingBar3"
+            android:layout_width="wrap_content"
+            android:layout_height="41dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="95dp"
+            android:isIndicator="false"
+            android:numStars="5"
+            android:progressTint="@color/yellow"
+            android:rating="3"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            android:stepSize="1" />
+
+        <ImageButton
+            android:id="@+id/messageImageButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="140dp"
+            android:backgroundTint="@color/gray"
+            app:srcCompat="@drawable/messages" />
+
+        <ImageButton
+            android:id="@+id/callImageButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="125dp"
+            android:layout_marginTop="140dp"
+            android:backgroundTint="@color/gray"
+            app:srcCompat="@drawable/call1" />
+
+        <Button
+            android:id="@+id/hireNowButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="195dp"
+            android:layout_marginTop="140dp"
+            android:backgroundTint="@color/bright_pink"
+            android:text="Hire Now" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/itinerant2"
+        android:layout_width="389dp"
+        android:layout_height="185dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="248dp"
+        android:backgroundTint="@color/gray"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/valImageView"
+            android:layout_width="88dp"
+            android:layout_height="83dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/jokshan"
+            app:civ_border_color="#FF000000" />
+
+        <TextView
+            android:id="@+id/itinerantName2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="95dp"
+            android:layout_marginTop="10dp"
+            android:text="Jokshan Tabar"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/itinerantLocation2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="95dp"
+            android:layout_marginTop="40dp"
+            android:text="Location: Danao,Cebu City"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/itinerantVehicle2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="95dp"
+            android:layout_marginTop="70dp"
+            android:text="Vehicle:"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/vehicleType2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="175dp"
+            android:layout_marginTop="70dp"
+            android:text="Motorcycle"
+            android:textColor="@color/purple_700"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <RatingBar
+            android:id="@+id/ratingBar2"
+            android:layout_width="wrap_content"
+            android:layout_height="41dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="95dp"
+            android:isIndicator="false"
+            android:numStars="5"
+            android:progressTint="@color/yellow"
+            android:rating="3"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            android:stepSize="1" />
+
+        <ImageButton
+            android:id="@+id/messageImageButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="140dp"
+            android:backgroundTint="@color/gray"
+            app:srcCompat="@drawable/messages" />
+
+        <ImageButton
+            android:id="@+id/callImageButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="125dp"
+            android:layout_marginTop="140dp"
+            android:backgroundTint="@color/gray"
+            app:srcCompat="@drawable/call1" />
+
+        <Button
+            android:id="@+id/hireNowButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="195dp"
+            android:layout_marginTop="140dp"
+            android:backgroundTint="@color/bright_pink"
+            android:text="Hire Now" />
+
+    </androidx.cardview.widget.CardView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:menu="@menu/bottom_nav_menu"
+        android:background="?android:attr/windowBackground"
+        app:labelVisibilityMode="selected"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

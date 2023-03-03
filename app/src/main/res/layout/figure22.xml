@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".figure22">
+
+    <View
+        android:id="@+id/customerview7"
+        android:layout_width="393dp"
+        android:layout_height="210dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="38dp"
+        android:background="@color/gray"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+        android:layout_width="378dp"
+        android:layout_height="210dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="42dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/RequestIDTV"
+            android:layout_width="332dp"
+            android:layout_height="wrap_content"
+            android:text="Request ID: 18823"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/NameTV"
+            android:layout_width="333dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:text="Itinerant Name: Vallery Sarsalejo"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/PhoneTV"
+            android:layout_width="333dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="Phone: +649 823 9921"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/AddressTV"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="Address: Pardo, St. Eagle Gordo Ave."
+            android:textColor="@color/black" />
+        <TextView
+            android:id="@+id/ShopNameTV"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="Shop Name: Bayaw Lechon"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/DescriptionTV"
+            android:layout_width="333dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="Description: Hello sir pwede ko papalit lechon 3 kilos salamat"
+            android:textColor="@color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:layout_marginLeft="30dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/chatNowBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="12dp"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="@color/blue"
+                android:text="Chat Now"
+                android:textSize="11dp" />
+
+            <Button
+                android:id="@+id/completebtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="24dp"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="@color/mint_green"
+                android:text="Complete"
+                android:textSize="11dp" />
+
+            <Button
+                android:id="@+id/cancelBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="@color/red"
+                android:text="cancel"
+                android:textSize="11dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/customerview"
+        android:layout_width="393dp"
+        android:layout_height="210dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="276dp"
+        android:background="@color/gray"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+
+    <LinearLayout
+        android:layout_width="378dp"
+        android:layout_height="210dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="280dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/RequestIDTV1"
+            android:layout_width="332dp"
+            android:layout_height="wrap_content"
+            android:text="Request ID: 18823"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/NameTV1"
+            android:layout_width="333dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:text="Itenerant Name: PENDING REQUEST"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/PhoneTV1"
+            android:layout_width="333dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="Phone: PENDING REQUEST"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/AddressTV1"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="Address: Tigbao, Talamban Minoza St."
+            android:textColor="@color/black" />
+        <TextView
+            android:id="@+id/ShopnameTV1"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="Shop Name: Isaw and Sangag"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/DescriptionTV1"
+            android:layout_width="333dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="Description: Papalit ko 3 packs sa isaw and sangag thank you. Message for further questions"
+            android:textColor="@color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:layout_marginLeft="30dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/chatNowBtn1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="12dp"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="@color/blue"
+                android:text="Chat Now"
+                android:textSize="11dp" />
+
+            <Button
+                android:id="@+id/completebtn1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="24dp"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="@color/mint_green"
+                android:text="Complete"
+                android:textSize="11dp" />
+
+            <Button
+                android:id="@+id/cancelBtn1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="@color/red"
+                android:text="cancel"
+                android:textSize="11dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:menu="@menu/bottom_nav_menu"
+        android:background="?android:attr/windowBackground"
+        app:labelVisibilityMode="selected"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

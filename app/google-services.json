@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1048159432753",
+    "project_id": "eldroid-sarsalejo",
+    "storage_bucket": "eldroid-sarsalejo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1048159432753:android:ae762c37ce240fd8cae510",
+        "android_client_info": {
+          "package_name": "com.example.pasabiliprac1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1048159432753-3fpmof8scvpqmfsjb43mm3tj198dtksv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzzwA541ctP8lNzd4O34Ka-gz98tzu0XY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1048159432753-3fpmof8scvpqmfsjb43mm3tj198dtksv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
